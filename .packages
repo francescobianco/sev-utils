@@ -1,2 +1,26 @@
+################################################################################
+#                                                                              #
+#                     ███╗   ███╗██╗   ██╗███████╗██╗  ██╗                     #
+#                     ████╗ ████║██║   ██║██╔════╝██║  ██║                     #
+#                     ██╔████╔██║██║   ██║███████╗███████║                     #
+#                     ██║╚██╔╝██║██║   ██║╚════██║██╔══██║                     #
+#                     ██║ ╚═╝ ██║╚██████╔╝███████║██║  ██║                     #
+#                     ╚═╝     ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝                     #
+#                                                                              #
+################################################################################
+#
+# Description:
+#   This file defines the package registry index and lists all nodes and
+#   packages that contribute to building it.
+#
+# Format:
+#   index <url>         - References another .packages file in a remote repository
+#   package <name> <url> [subdirectory] - Defines a package and its source location
+#
+# Maintainer: Francesco Bianco <bianco@javanile.org>
+# Version: 1.0
+# Last Updated: 2025-04-09
+#
+################################################################################
 
-
+package snp https://github.com/francescobianco/sev-utils.git packages/snp
