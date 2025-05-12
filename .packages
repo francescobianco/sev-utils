@@ -23,4 +23,4 @@
 #
 ################################################################################
 
-package snp https://github.com/francescobianco/sev-utils.git packages/snp
+package snp https://github.com/francescobianco/sev-utils.git packages/snp # AMD SEV - Setup a host system, launch and test a SNP guest
